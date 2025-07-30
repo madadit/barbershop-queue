@@ -38,7 +38,7 @@ pip install opencv-python openpyxl pillow qrcode
 
 Clone repository atau copy file barbershop.py
 
-##Penggunaan
+## Penggunaan
 Jalankan program:
 
 bash
