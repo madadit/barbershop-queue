@@ -1,64 +1,52 @@
-Barbershop Management System
+# Barbershop Management System
 
-Aplikasi ini adalah sistem manajemen antrian dan transaksi untuk barbershop yang memungkinkan:
+## Aplikasi ini adalah sistem manajemen antrian dan transaksi untuk barbershop yang memungkinkan:
 
 Pendaftaran pelanggan dengan berbagai layanan
-
 Manajemen antrian pelanggan
-
 Pelacakan status kursi
-
 Pembuatan struk dengan QR code
-
 Update status transaksi melalui scan QR code
 
-Fitur Utama
+## Fitur Utama
 Manajemen Layanan:
-
 8 jenis layanan dengan harga berbeda
-
 Kemampuan memilih multiple layanan
 
 Sistem Antrian:
-
 Antrian FIFO (First In First Out)
-
 Tampilan status antrian dan kursi
 
 Transaksi:
-
 Penyimpanan data transaksi ke Excel
-
 Pembuatan struk digital dengan QR code
-
 QR Code Integration:
-
 Generate QR code di struk
-
 Scan QR code untuk update status transaksi
 
 Kursi Barber:
-
 Sistem tracking 2 kursi barber
-
 Auto-kosongkan kursi setelah transaksi selesai
 
-Instalasi
+### Instalasi
 Pastikan Python 3.x terinstall
-
 Install dependencies:
-
 bash
+```bash
 pip install opencv-python openpyxl pillow qrcode
+```
+
 Clone repository atau copy file barbershop.py
 
-Penggunaan
+##Penggunaan
 Jalankan program:
 
 bash
+```bash
 python barbershop.py
-Menu utama:
+```
 
+Menu utama:
 text
 1. Tambah Pelanggan
 2. Tampilkan Antrian
